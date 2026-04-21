@@ -1,35 +1,53 @@
 *This project has been created as part of the 42 curriculum by jfernand.*
+
 # NetPractice
 
 ## Description
 
+NetPractice is an interactive training project designed to help users practice and reinforce their networking skills. The goal is to configure networks correctly across multiple levels by adjusting IP addresses, subnet masks, gateways, and routing devices. This project provides hands-on experience with fundamental networking concepts such as TCP/IP addressing, subnetting, default gateways, routers, switches, and the OSI model.
+
 ## Instructions
 
-This project involves solving networking problems to make a network function properly.
+1. Download the project files from the 42 project page.
+2. Extract the files into any folder of your choice.
+3. Open a terminal in the folder and run the `run.sh` script. This script will launch a local web server and automatically open your preferred web browser to the training interface.
 
-- First, download the file attached to the project’s page.
-- Then, extract the files into any folder of your choice.
-- In this folder, run the `run.sh` file. This shell script will launch a web server and
-  open your preferred web browser to the dedicated page.
+### Training Interface
 
-There are 10 levels available for training. 
+- There are 10 levels available.
+- At the top of the page, objectives for each level are displayed. Your goal is to adjust the network configuration so that the network functions correctly.
+- Buttons available:
+  - `Check again` — verifies if your configuration is correct.
+  - `Get my config` — downloads your current configuration.
+- Upon successful completion of a level, a new button appears to advance to the next level.
+- Logs are displayed at the bottom of the page to help identify configuration errors, such as missing gateways or invalid IP addresses.
 
-At the top of your window, you will see one or more objectives that you must achieve by
-adjusting the available configuration so that the network functions properly. There are
-two buttons you can use:
-- `Check again` to verify whether your configuration is correct.
-- `Get my config` to download your configuration whenever you need to.
+### Exporting Configurations
 
-When you have successfully completed a level, a new button will appear. Click this
-button to proceed to the next level.
-
-At the bottom of the page, you will see logs. They can help you understand why your
-configuration is incorrect, for example, if a gateway is missing or an IP address is
-invalid.
+- After completing each level, use the `Get my config` button to download your configuration.
+- Ensure all 10 configuration files (one per level) are exported before submission.
 
 ## Resources
 
-## Submission details
+### Networking Concepts Studied
 
-- 10 exported configuration files (one per level) must be placed at the repository root.
-- A README.md file must be provided at the root of your Git repository.
+- TCP/IP addressing
+- Subnet masks
+- Default gateways
+- Routers and switches
+- OSI layers and their functions
+
+### References
+
+- [Cisco Networking Basics](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html)
+- [IP Addressing and Subnetting for New Users](https://www.oreilly.com/library/view/ip-addressing-and/0596009228/)
+- [Introduction to Networking – TutorialsPoint](https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm)
+
+### AI Usage
+
+AI was used to assist in drafting the README.md content, improving clarity, and structuring instructions. No AI was used to complete the network exercises or generate configuration files.
+
+## Submission Details
+
+- Place all 10 exported configuration files (one per level) at the root of your repository.
+- Include this README.md file at the root of your repository.
