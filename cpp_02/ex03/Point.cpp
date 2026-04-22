@@ -11,14 +11,8 @@ Point &Point::operator=(const Point &other) {
   return (*this);
 }
 
-Fixed Point::getX(void) const
-{
-    return (this->x);
-}
+Point::~Point(void) {}
 
-Fixed Point::getY(void) const
-{
-    return (this->y);
-}
+Fixed Point::getX(void) const { return (this->x); }
 
-
+Fixed Point::getY(void) const { return (this->y); }
