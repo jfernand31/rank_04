@@ -14,6 +14,7 @@
 #include "Fixed.hpp"
 
 Fixed::Fixed() : value(0) { std::cout << "Default Constructor called\n"; }
+
 Fixed::Fixed(const Fixed& other)
 {
 	value = other.value;

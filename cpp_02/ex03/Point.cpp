@@ -10,3 +10,15 @@ Point &Point::operator=(const Point &other) {
   (void)other;
   return (*this);
 }
+
+Fixed Point::getX(void) const
+{
+    return (this->x);
+}
+
+Fixed Point::getY(void) const
+{
+    return (this->y);
+}
+
+
